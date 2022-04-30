@@ -1,0 +1,91 @@
+/******************************************
+/* CSS
+/*******************************************/
+
+/* Box Model Hack */
+html{
+  font-size: 62.5%;
+}
+*{
+  box-sizing: border-box;
+}
+
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+body{
+  background: no-repeat url('../css/background.png')
+}
+h1{
+  font-size: 5rem;
+  font-family: 'Truculenta', sans-serif;
+  color: white;
+  text-align: center;
+  margin-top: 30px;
+}
+img{
+  display: block;
+  margin: 0 auto;
+}
+.flex-container{
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+.card1{
+  width: 82px;
+  height: 153px;  
+}
+.card2{
+  width: 146px;
+  height: 273px;
+}
+.card3{
+  width: 146px;
+  height: 273px;
+}
+.card4{
+  width: 82px;
+  height: 153px;
+}
+.cards-container{
+  margin-top: 60px;
+}
+.card-top-margin{
+  margin-top: 220px;
+}
+.play-btn{
+  /* padding-top: 80px; */
+}
+select, input{
+  margin: 0px 50px;
+  width: 374px;
+  height: 89px;
+  background: #FFFFFF;
+  border-radius: 100px;
+  padding: 30px 50px;
+}
+input{
+  border-style: none;
+}
+.btn{
+  width: 134px;
+  height: 89px;
+  background: #000000;
+  color: white;
+  border-radius: 100px;
+  padding: 30px 50px;
+  border-style: none;
+
+}
+.input-section{
+  
+  padding-top: 40px;
+}
+p{
+  text-align: center;
+}
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
