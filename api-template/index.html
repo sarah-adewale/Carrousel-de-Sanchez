@@ -5,13 +5,14 @@
     	<meta name="description" content="This is where your description goes">
     	<meta name="keywords" content="one, two, three">
 
-		<title>Title in the tab</title>
+		<title>Carrousel-de-sanchez</title>
 		<link rel="preconnect" href="https://fonts.googleapis.com">
 		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 		<link href="https://fonts.googleapis.com/css2?family=Truculenta:wght@700&display=swap" rel="stylesheet">	
 		<link rel="preconnect" href="https://fonts.googleapis.com">
 		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-		<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300&display=swap" rel="stylesheet">			
+		<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;700&display=swap" rel="stylesheet">
+			
 		<!-- external CSS link -->
 		<link rel="stylesheet" href="css/normalize.css">
 		<link rel="stylesheet" href="css/style.css">
@@ -21,28 +22,56 @@
 			<h1>Carrousel de Sanchez</h1>
 		</header>
 		<section class="flex-container input-section">
-			<span>Show me:</span>
-			<select class="dropdown" name="" id="">
+			<span class="sort-text">Show me:</span>
+			<!-- <select class="dropdown" name="" id="">
 				<option value="">Sort</option>
-			</select>
+			</select> -->
 			<form action="">
 				<input type="text" value="" placeholder="Enter a value">
 			</form>
 			<button class="btn">Go</button>
 		</section>
 		<section class="number-section">
-			<p>12 of 23</p>
+			<p class="number-text">12 of 23</p>
 		</section>
 		<section class="flex-container ">
 			<img class="control-btn" src="../api-template/img/play-btn1.png" alt="controls button">
-			<img src="../api-template/img/play-btn2.png" alt="controls button">
+			<img class="control-btn" src="../api-template/img/play-btn2.png" alt="controls button">
+			
 		</section>
-		<section class="flex-container cards-container">
-			<img class="card1" src="../api-template/img/card1.png" alt="">
-			<img class="card2" src="../api-template/img/card2.png" alt="">
-			<img class="main-card" src="../api-template/img/Card.png" alt="">
-			<img class="card2" src="../api-template/img/card3.png" alt="">
-			<img class="card1" src="../api-template/img/card4.png" alt="">
+		<section class="flex-container swipe-container">
+			
+			
+			<section class="swipper-wrapper">
+				<section class="swiper-slide">
+					
+					<section class="main-card">
+						<img id="rick-image" src="../api-template/img/rick.png" alt="an image of rick">
+						<div class="info-box">
+							<div class="info-section">
+								<h2 class="character-name">Rick Sanchez</h2>
+								<h3 class="character-status">Status -<span id="character-species"> Alive</span> </h3>
+							</div>
+							<div class="info-section">
+								<p class="character-location">Last Known Location:</p>
+								<h3 class="location-title">Citadel of Ricks</h3>
+							</div>
+							<div class="info-section">
+								<p class="character-episode">Fits seen in:</p>
+								<h3 class="character-episode-name">Episode 1: Pilot</h3>
+							</div>
+
+						</div>
+						
+					</section>
+					
+				</section>
+			</section>
+			<!-- <img class="card1" src="../api-template/img/card1.png" alt="">
+			<img class="card2" src="../api-template/img/card2.png" alt=""> -->
+			
+			<!-- <img class="card2" src="../api-template/img/card3.png" alt="">
+			<img class="card1" src="../api-template/img/card4.png" alt=""> -->
 
 		</section>
 		<script type="text/javascript" src="js/main.js"></script>
