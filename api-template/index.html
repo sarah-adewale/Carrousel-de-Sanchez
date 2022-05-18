@@ -35,14 +35,14 @@
 			<p class="number-text">12 of 23</p>
 		</section>
 		<section class="flex-container ">
-			<img class="control-btn" src="../api-template/img/play-btn1.png" alt="controls button">
-			<img class="control-btn" src="../api-template/img/play-btn2.png" alt="controls button">
+			<!-- <img class="control-btn" src="../api-template/img/play-btn1.png" alt="controls button">
+			<img class="control-btn" src="../api-template/img/play-btn2.png" alt="controls button"> -->
 			
 		</section>
-		<section class="flex-container swipe-container">
+		<section class="swiper-container">
 			
 			
-			<section class="swipper-wrapper">
+			<section class="swiper-wrapper">
 				<section class="swiper-slide">
 					
 					<section class="main-card">
@@ -67,6 +67,7 @@
 					
 				</section>
 			</section>
+			<div class="swiper-pagination"></div>
 			<!-- <img class="card1" src="../api-template/img/card1.png" alt="">
 			<img class="card2" src="../api-template/img/card2.png" alt=""> -->
 			
@@ -75,5 +76,24 @@
 
 		</section>
 		<script type="text/javascript" src="js/main.js"></script>
+		<script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+		<script>
+			let swiper = new Swiper(".swiper-container", {
+				effect: "coverflow",
+				grabCursor: true,
+				centeredSlides: true,
+				slidesPerView: "auto",
+				coverflowEffect: {
+					rotate: 0,
+					stretch: 0,
+					depth: 100,
+					modifier: 2,
+					slideShadows: true,
+				},
+				pagination: {
+					el: ".swiper-pagination",
+				},
+			});
+		</script>
 	</body>
 </html>

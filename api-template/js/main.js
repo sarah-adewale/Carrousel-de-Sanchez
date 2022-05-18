@@ -7,7 +7,7 @@ function getFetch(){
 
   const url = `https://rickandmortyapi.com/api/character/?name=${choice}`
 //   const xterObj = data.results[0]
-
+  
   fetch(url)
       .then(res => res.json()) // parse response as JSON
       .then(data => {
